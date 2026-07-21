@@ -1,0 +1,15 @@
+# .dockerignore = "don't send these to the Docker build".
+# Smaller build context → faster builds, and secrets/junk never
+# accidentally end up baked into an image layer.
+.git
+.github
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+tests/
+README.md
+.dockerignore
+Dockerfile

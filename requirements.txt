@@ -1,0 +1,3 @@
+# The one and only runtime dependency. Pinning to a major version keeps
+# builds reproducible-ish without being annoying for a learning project.
+flask>=3.0,<4

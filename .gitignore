@@ -1,0 +1,14 @@
+# Python bytecode and caches — machine-generated, never commit.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments — every dev recreates their own from requirements.txt.
+.venv/
+venv/
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
